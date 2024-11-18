@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>About Us - GadgetsZone</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header Styling */
+.header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  font-size: 2rem;
+}
+
+.header nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.header nav ul li {
+  margin-left: 20px;
+}
+
+.header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* About Section Styling */
+.about-section {
+  padding: 40px;
+  text-align: center;
+}
+
+.about-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.about-intro p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-top: 20px;
+}
+
+.mission-vision {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.mission, .vision {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 48%;
+}
+
+.mission h3, .vision h3 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.mission p, .vision p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.our-team {
+  margin-top: 60px;
+}
+
+.our-team h3 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.team {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.team-member {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 200px;
+  padding: 20px;
+}
+
+.team-member img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.team-member h4 {
+  font-size: 1.3rem;
+  margin-bottom: 5px;
+}
+
+.team-member p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* Footer Styling */
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 60px;
+}
+
+.footer p {
+  font-size: 0.9rem;
+}
+
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="logo">
+      <h1>GadgetsZone</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="Rakshit_Project.html">Home</a></li>
+        <li><a href="product.html">Products</a></li>
+        <li><a href="discounts.html">Offers</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Section: About Us -->
+  <main class="about-section">
+    <section class="about-intro">
+      <h2>About GadgetsZone</h2>
+      <p>At ElectroStore, we're passionate about bringing the latest and greatest in electronics to our customers. With a wide variety of products from top brands, we aim to deliver the best shopping experience for all your tech needs.</p>
+    </section>
+
+    <section class="mission-vision">
+      <div class="mission">
+        <h3>Our Mission</h3>
+        <p>Our mission is to provide high-quality, innovative electronics that enhance the lives of our customers, backed by exceptional customer service and support.</p>
+      </div>
+      <div class="vision">
+        <h3>Our Vision</h3>
+        <p>We envision becoming a leading destination for tech lovers worldwide, known for our trustworthiness, reliability, and passion for cutting-edge technology.</p>
+      </div>
+    </section>
+
+    <section class="our-team">
+      <h3>Meet Our Team</h3>
+      <div class="team">
+        <div class="team-member">
+          <img src="boy1.jpg" alt="Team Member 1">
+          <h4>Jony Dake</h4>
+          <p>CEO & Founder</p>
+        </div>
+        <div class="team-member">
+          <img src="boy2.jpg" alt="Team Member 2">
+          <h4>Jane Smith</h4>
+          <p>Head of Marketing</p>
+        </div>
+        <div class="team-member">
+          <img src="girl1.jpg" alt="Team Member 3">
+          <h4>Miky Johnson</h4>
+          <p>Lead Developer</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>Learn more about us and our story.</p>
+  </footer>
+
+</body>
+</html>

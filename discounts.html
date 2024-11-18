@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Special Offers - Electronics</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header Styling */
+.header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  font-size: 2rem;
+}
+
+.header nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.header nav ul li {
+  margin-left: 20px;
+}
+
+.header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Main Section Styling */
+.offers-section {
+  padding: 40px;
+  text-align: center;
+}
+
+.offers-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.offer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+.offer-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 100%;
+  max-width: 250px;
+  padding: 20px;
+  text-align: center;
+}
+
+.offer-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.offer-card h3 {
+  font-size: 1.5rem;
+  margin-top: 15px;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: #888;
+  font-size: 1.1rem;
+}
+
+.discount-badge {
+  background-color: #e53946;
+  color: white;
+  padding: 5px;
+  border-radius: 4px;
+  font-size: 1rem;
+  margin-left: 10px;
+}
+
+.new-price {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #2e7d32;
+  margin-top: 10px;
+}
+
+.btn-details {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.btn-details:hover {
+  background-color: #0056b3;
+}
+
+/* Footer Styling */
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.footer p {
+  font-size: 0.9rem;
+}
+
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="logo">
+      <h1>GadgetsZone</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="Rakshit_Project.html">Home</a></li>
+        <li><a href="product.html">Products</a></li>
+        <li><a href="discounts.html">Offers</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Section: Offers -->
+  <main class="offers-section">
+    <h2>Special Offers</h2>
+    <div class="offer-grid">
+      <!-- Offer 1 -->
+      <div class="offer-card">
+        <img src="vacuum.jpg" alt="vacum cleaner">
+        <h3>Vacuum cleaner</h3>
+        <p class="old-price">RS 20,000 <span class="discount-badge">20% OFF</span></p>
+        <p class="new-price">Rs 16,500</p>
+        <button class="btn-details">View Details</button>
+      </div>
+
+      <!-- Offer 2 -->
+      <div class="offer-card">
+        <img src="amazons24.jpg" alt="Smartphone">
+        <h3>S24 ULTRA</h3>
+        <p class="old-price">Rs 1,00,000<span class="discount-badge">15% OFF</span></p>
+        <p class="new-price">Rs 85,000</p>
+        <button class="btn-details">View Details</button>
+      </div>
+
+      <!-- Offer 3 -->
+      <div class="offer-card">
+        <img src="amazonheadphone.jpg" alt="Headphones">
+        <h3>Noise Cancelling Headphones</h3>
+        <p class="old-price">Rs 2,000 <span class="discount-badge">30% OFF</span></p>
+        <p class="new-price">RS 1,350</p>
+        <button class="btn-details">View Details</button>
+      </div>
+
+      <!-- Offer 4 -->
+      <div class="offer-card">
+        <img src="soundbar.jpg" alt="Sound bar">
+        <h3>Sound Bar</h3>
+        <p class="old-price">Rs 10,000 <span class="discount-badge">25% OFF</span></p>
+        <p class="new-price">Rs 7,500</p>
+        <button class="btn-details">View Details</button>
+      </div>
+      
+      <div class="offer-card">
+        <img src="fans.jpg" alt="fan">
+        <h3>Ceiling Fan</h3>
+        <p class="old-price">Rs 3,000 <span class="discount-badge">25% OFF</span></p>
+        <p class="new-price">Rs 2,500</p>
+        <button class="btn-details">View Details</button>
+      </div>
+
+      <div class="offer-card">
+        <img src="kettle.jpg" alt="kettle">
+        <h3>Electric Kettle</h3>
+        <p class="old-price">Rs 4,500 <span class="discount-badge">25% OFF</span></p>
+        <p class="new-price">Rs 3,850 </p>
+        <button class="btn-details">View Details</button>
+      </div>
+
+      <div class="offer-card">
+        <img src="dishwasher.jpg" alt="dishwasher">
+        <h3>Dish Washer</h3>
+        <p class="old-price">Rs 40,000 <span class="discount-badge">25% OFF</span></p>
+        <p class="new-price">Rs 34,000</p>
+        <button class="btn-details">View Details</button>
+      </div>
+
+      <div class="offer-card">
+        <img src="Canoncamera.jpg" alt="camera">
+        <h3>Canon Camera</h3>
+        <p class="old-price">Rs 50,000 <span class="discount-badge">25% OFF</span></p>
+        <p class="new-price">Rs 42,000</p>
+        <button class="btn-details">View Details</button>
+      </div>
+
+     
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>Limited-time discounts! Don't miss out on our latest deals</p>
+  </footer>
+
+</body>
+</html>
