@@ -10,7 +10,7 @@ Welcome to **GadgetsZone**, your ultimate destination for the latest electronic 
 - Search and filter functionality 🔍
 
 ## 🚀 Live Demo
-[Visit GadgetsZone](https://your-live-demo-link.com)
+[Visit GadgetsZone]( https://rakshit239.github.io/GadgetsZone/)
 
 ## 🛠️ Installation
 To run the project locally, follow these steps:
